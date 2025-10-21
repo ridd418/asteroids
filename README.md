@@ -8,7 +8,7 @@ Asteroids using Python and Pygame
 
     ```
     git clone https://github.com/ridd418/asteroids.git
-    cd astroids
+    cd asteroids
     ```
 
 2. Install [uv](https://docs.astral.sh/uv/getting-started/installation/) on your system.
@@ -17,13 +17,13 @@ Asteroids using Python and Pygame
     ```
     uv venv
     source .venv/bin/activate
-    uv pip install .
+    uv pip install -r pyproject.toml  
     ```
     **On Windows (cmd):**
     ```
     uv venv
     .venv\Scripts\activate
-    uv pip install .     
+    uv pip install -r pyproject.toml   
     ```
 
 ### Run the Game:
